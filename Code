@@ -1,4 +1,4 @@
-class Solution:
+class Solution: #beats 11.95% runtime, 99.46% Memory 
     def latestDayToCross(self, row: int, col: int, cells: List[List[int]]) -> int:
         def canCross(day):
             grid = [[0] * col for _ in range(row)]
