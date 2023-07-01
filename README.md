@@ -1,5 +1,7 @@
 # Leetcode-1970
-Last Day Where You Can Still Cross
+Last Day Where You Can Still Cross (Hard)
+
+# Problem
 
 There is a 1-based binary matrix where 0 represents land and 1 represents water. You are given integers row and col representing the number of rows and columns in the matrix, respectively.
 
@@ -9,7 +11,7 @@ You want to find the last day that it is possible to walk from the top to the bo
 
 Return the last day where it is possible to walk from the top to the bottom by only walking on land cells.
 
-My solution
+# My solution
 
 Uses binary search to reduce the number of days to check if a path to cross exists
 
