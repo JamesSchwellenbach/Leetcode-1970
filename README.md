@@ -13,6 +13,6 @@ Return the last day where it is possible to walk from the top to the bottom by o
 
 # My solution
 
-Uses binary search to reduce the number of days to check if a path to cross exists
+Using binary search I reduced the number of days to check if a path across the matrix exists
 
 canCross() checks if a path exists on a specific day, by adding the first row of tiles that are land to a queue and then popping them off and adding their uncheked neighbors to the queue. I put the neighbors underneath at the front of the queue and the other neighbors at the end. It returns true if a neighbor is both land and on the bottom row, false otherwise.
