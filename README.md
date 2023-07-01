@@ -1,5 +1,5 @@
-# Leetcode-1970
-Last Day Where You Can Still Cross (Hard)
+# Leetcode 1970. Last Day Where You Can Still Cross (Hard)
+
 
 # Problem
 
