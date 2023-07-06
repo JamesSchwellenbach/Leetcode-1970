@@ -11,8 +11,8 @@ You want to find the last day that it is possible to walk from the top to the bo
 
 Return the last day where it is possible to walk from the top to the bottom by only walking on land cells.
 
-# My solution
+# Solution O(nlogn) 
 
 Using binary search I reduced the number of days to check if a path across the matrix exists
 
-canCross() checks if a path exists on a specific day, by adding the first row of tiles that are land to a queue and then popping them off and adding their uncheked neighbors to the queue. I put the neighbors underneath at the front of the queue and the other neighbors at the end. It returns true if a neighbor is both land and on the bottom row, false otherwise.
+canCross() checks if a path exists on a specific day, by adding the first row of tiles that are land to a queue and then popping them off and adding their unchecked neighbors to the queue. I put the neighbors underneath at the front of the queue and the other neighbors at the end. It returns true if a neighbor is both land and on the bottom row, false otherwise.
